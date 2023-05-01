@@ -1,0 +1,26 @@
+.storeStyle ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    margin-right: 150px;
+}
+.storeStyle
+{
+    direction: rtl;
+}
+.storeStyle ul li{
+
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+    /* color: #6d28d9; */
+    font-family: 'MyFontName';
+
+}
+.storeStyle ul li:hover{
+    opacity: 65%;
+}
+.active{
+    border-bottom: 2px solid #6d28d9; 
+    padding-bottom: 3px;  
+}

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'MyFontName';
+  src: url('../../../Fonts/irsans_p30download.com.ttf')/* IE9 Compat Modes */
+
+        
+}
+.itemImg {
+  width: 100px;
+  /* height: 100px; */
+}
+
+.itemImg img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.cartItemList {
+  /* max-width: 300px; */
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+.cartCenter {
+  
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1170px;
+  margin-top: 50px;
+}
+.cartsummary {
+  font-family: 'MyFontName';
+
+  padding: 10px;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin-left: 4rem;
+  font-size: 13px;
+}
+.cartBadge {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #6d28d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}
+.cartLink {
+  position: relative;
+}
+.cartSummaryItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.cartSummaryItem.net {
+  border-top: 1px solid #ccc;
+  padding-top: 2px;
+}
+.btnGroup {
+  outline: none;
+  border: 1px solid #6d28d9;
+  padding: 5px 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btnGroup:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+.btnGroup:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+.btnGroup:nth-child(2){
+  border-left: 0;
+  border-right: 0;
+}

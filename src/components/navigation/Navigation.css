@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MyFontName';
+    src: url('../../components/Fonts/irsans_p30download.com.ttf')/* IE9 Compat Modes */
+  
+          
+  }
+.mainNavigation{
+    font-family: 'MyFontName';
+
+    height: 4.5rem;
+    width: 100%;
+    background: #ede9fe;
+    /* position: sticky; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.mainNavigation nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+width: 100%;
+max-width: 1170px; 
+
+
+}
+.mainNavigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.mainNavigation li{
+    margin: 0 1rem;
+}
+.mainNavigation a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.mainNavigation a:hover,.activeBtn{
+    background-color: #fff;
+    color: #7c3aed;
+}

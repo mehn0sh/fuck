@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'MyFontName';
+    src: url('../../components/Fonts/irsans_p30download.com.ttf ')/* IE9 Compat Modes */
+  
+          
+  }
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label{
+    font-family: 'MyFontName';
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="tel"],
+input[type='email'],
+input[type='password']{
+    width: 400px;
+    display: block;
+    padding: 6px 12px;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-top: 20px; */
+
+}
+.loginlink{
+    font-family: 'MyFontName';
+
+}
+btnS{ 
+       font-family: 'MyFontName';
+
+
+    margin-top: 20px;
+}
+button:disabled{
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #444;
+}
+.error{
+    color: red;
+    font-family: 'MyFontName';
+    font-weight: bold;
+    display: flex;
+    font-size: 10px;
+    margin-top: 9px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #6d28d9;
+}
+a{
+    text-decoration: none;
+}
